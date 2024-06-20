@@ -1,0 +1,88 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Curso",
+    "collectionId": "9e943b13-54f4-4f77-b815-e69915bdd6a9",
+    "dateExported": "2024-06-19T16:20:17.417Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "34a5945d-3f55-4389-ba2c-f2c2aea30e68",
+            "colId": "9e943b13-54f4-4f77-b815-e69915bdd6a9",
+            "containerId": "",
+            "name": "listar",
+            "url": "http://localhost:8500/cursos",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-06-18T21:38:42.072Z",
+            "modified": "2024-06-18T21:38:58.997Z",
+            "headers": []
+        },
+        {
+            "_id": "41c1b683-89f5-4df4-a3c6-c23775228ef8",
+            "colId": "9e943b13-54f4-4f77-b815-e69915bdd6a9",
+            "containerId": "",
+            "name": "agregar",
+            "url": "http://localhost:8500/curso",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-06-18T21:39:12.783Z",
+            "modified": "2024-06-19T16:17:51.592Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"codCurso\":\"C003\",\n  \"nombre\":\"Phyton\",\n  \"duracion\":500,\n  \"precio\":\"600.25\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "36f83171-4d66-4d04-8cb8-b18844fa2a4d",
+            "colId": "9e943b13-54f4-4f77-b815-e69915bdd6a9",
+            "containerId": "",
+            "name": "eliminar",
+            "url": "http://localhost:8500/curso/C003",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2024-06-18T21:49:54.763Z",
+            "modified": "2024-06-19T16:18:06.247Z",
+            "headers": []
+        },
+        {
+            "_id": "dabc4a70-bfc5-4228-b9d0-5d7a4187f36a",
+            "colId": "9e943b13-54f4-4f77-b815-e69915bdd6a9",
+            "containerId": "",
+            "name": "actualizar",
+            "url": "http://localhost:8500/curso/C003/200",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-06-18T21:54:09.985Z",
+            "modified": "2024-06-19T16:18:32.945Z",
+            "headers": []
+        },
+        {
+            "_id": "6b980c7a-65ac-4e92-9c24-27895d97a46d",
+            "colId": "9e943b13-54f4-4f77-b815-e69915bdd6a9",
+            "containerId": "",
+            "name": "buscar",
+            "url": "http://localhost:8500/curso/C002",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-06-18T21:56:42.569Z",
+            "modified": "2024-06-19T16:18:50.713Z",
+            "headers": []
+        },
+        {
+            "_id": "50617ce2-eb85-4f9e-ab7d-f6ae8a60b1ae",
+            "colId": "9e943b13-54f4-4f77-b815-e69915bdd6a9",
+            "containerId": "",
+            "name": "rango",
+            "url": "http://localhost:8500/cursos/300/500",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2024-06-18T21:58:03.415Z",
+            "modified": "2024-06-19T16:19:20.315Z",
+            "headers": []
+        }
+    ],
+    "ref": "o7Hl8LcPcVVifVV9l2YFUw-d5G_VJ18udWUjZSQ-jZSOs90VB2T_qssFyI9I3KXFNZbNXvJhoXjJxbxBr7hI-A"
+}
