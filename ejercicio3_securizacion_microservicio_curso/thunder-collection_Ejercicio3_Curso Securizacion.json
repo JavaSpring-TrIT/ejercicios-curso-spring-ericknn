@@ -1,0 +1,116 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Ejercicio3_Curso Securizacion",
+    "collectionId": "60657b75-7c8d-4477-bbe6-1a2c6d67e17e",
+    "dateExported": "2024-07-02T22:36:45.588Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "7e83d910-b686-4b66-afd2-08b4d127eb43",
+            "colId": "60657b75-7c8d-4477-bbe6-1a2c6d67e17e",
+            "containerId": "",
+            "name": "listar",
+            "url": "http://localhost:8500/cursos",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-07-02T20:04:22.286Z",
+            "modified": "2024-07-02T22:24:48.144Z",
+            "headers": [],
+            "auth": {
+                "type": "basic",
+                "basic": {
+                    "username": "user1",
+                    "password": "user1"
+                }
+            }
+        },
+        {
+            "_id": "22758cbf-f0ae-46e4-b44e-e835a23cfd8e",
+            "colId": "60657b75-7c8d-4477-bbe6-1a2c6d67e17e",
+            "containerId": "",
+            "name": "agregar",
+            "url": "http://localhost:8500/curso",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-07-02T20:04:22.287Z",
+            "modified": "2024-07-02T22:24:15.206Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"codCurso\":\"C032\",\n  \"nombre\":\"Firebird\",\n  \"duracion\":200,\n  \"precio\":\"500.30\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "basic",
+                "basic": {
+                    "username": "user4",
+                    "password": "user4"
+                }
+            }
+        },
+        {
+            "_id": "ae506992-21ab-4a24-9186-545733ba76c1",
+            "colId": "60657b75-7c8d-4477-bbe6-1a2c6d67e17e",
+            "containerId": "",
+            "name": "eliminar",
+            "url": "http://localhost:8500/curso/C032",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2024-07-02T20:04:22.288Z",
+            "modified": "2024-07-02T22:34:12.800Z",
+            "headers": [],
+            "auth": {
+                "type": "basic",
+                "basic": {
+                    "username": "user4",
+                    "password": "user4"
+                }
+            }
+        },
+        {
+            "_id": "aa1842cf-6172-4c49-8035-287197649cb0",
+            "colId": "60657b75-7c8d-4477-bbe6-1a2c6d67e17e",
+            "containerId": "",
+            "name": "actualizar",
+            "url": "http://localhost:8500/curso/C003/200",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-07-02T20:04:22.289Z",
+            "modified": "2024-07-02T22:36:12.921Z",
+            "headers": [],
+            "auth": {
+                "type": "basic",
+                "basic": {
+                    "username": "user1",
+                    "password": "user1"
+                }
+            }
+        },
+        {
+            "_id": "723ee72d-183d-4f10-bf14-344b2ec38dd9",
+            "colId": "60657b75-7c8d-4477-bbe6-1a2c6d67e17e",
+            "containerId": "",
+            "name": "buscar",
+            "url": "http://localhost:8500/curso/C002",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-07-02T20:04:22.290Z",
+            "modified": "2024-07-02T20:04:22.290Z",
+            "headers": []
+        },
+        {
+            "_id": "a1a1f302-3464-4ef3-b419-078465c3bd10",
+            "colId": "60657b75-7c8d-4477-bbe6-1a2c6d67e17e",
+            "containerId": "",
+            "name": "rango",
+            "url": "http://localhost:8500/cursos/300/500",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2024-07-02T20:04:22.291Z",
+            "modified": "2024-07-02T20:04:22.291Z",
+            "headers": []
+        }
+    ],
+    "ref": "a3-twIv-kp0PtoNt-ShZxnEnwewpSClyy5i9qU-SfCxnvV8rxXtrW0GZlnic1Kmm92KIIf3vpx4oVXCj66pNDw"
+}

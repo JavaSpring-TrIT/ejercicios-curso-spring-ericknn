@@ -1,0 +1,40 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Ejercicio3_Formacion_Securizacion",
+    "collectionId": "81350d68-471f-48ee-aa18-89f92f330cf0",
+    "dateExported": "2024-07-02T22:45:44.990Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "3eaa5c88-f1cc-4f5c-a153-d0cd1da7cb85",
+            "colId": "81350d68-471f-48ee-aa18-89f92f330cf0",
+            "containerId": "",
+            "name": "listar",
+            "url": "http://localhost:9000/formaciones",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-07-02T22:02:27.775Z",
+            "modified": "2024-07-02T22:02:27.775Z",
+            "headers": []
+        },
+        {
+            "_id": "936dbe26-bd91-45db-8aeb-75bbfb049087",
+            "colId": "81350d68-471f-48ee-aa18-89f92f330cf0",
+            "containerId": "",
+            "name": "agregar",
+            "url": "http://localhost:9000/formacion",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-07-02T22:02:27.776Z",
+            "modified": "2024-07-02T22:04:16.064Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"curso\": \"Secure Spring 6.0\",\n    \"asignaturas\": 20,\n    \"precio\": 1900.60\n  }",
+                "form": []
+            }
+        }
+    ],
+    "ref": "jMWoz2TZ7Iz_2TP4IJE4esKsKVrxWrdmqjfnIvIuk7_J9tbNLa9weKda8yZWES4WamW0yBO7Fn4Tv3ld14q7Gw"
+}
