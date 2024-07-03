@@ -1,0 +1,40 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Formacion",
+    "collectionId": "958b871f-b019-4b1a-ab01-8645bb24040d",
+    "dateExported": "2024-06-27T22:07:52.550Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "1295548a-5eb1-480d-b933-b9e73479b866",
+            "colId": "958b871f-b019-4b1a-ab01-8645bb24040d",
+            "containerId": "",
+            "name": "listar",
+            "url": "http://localhost:9000/formaciones",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-06-27T21:21:06.148Z",
+            "modified": "2024-06-27T21:21:30.909Z",
+            "headers": []
+        },
+        {
+            "_id": "e6f53962-422e-4fdb-862a-b9e62c763586",
+            "colId": "958b871f-b019-4b1a-ab01-8645bb24040d",
+            "containerId": "",
+            "name": "agregar",
+            "url": "http://localhost:9000/formacion",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-06-27T21:22:16.209Z",
+            "modified": "2024-06-27T21:26:27.553Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"curso\": \"Messages Spring 6.0\",\n    \"asignaturas\": 10,\n    \"precio\": 900.60\n  }",
+                "form": []
+            }
+        }
+    ],
+    "ref": "0NG4cnCX_ZbA18Qb1zTtPijglrueCCKIjPdbFQ1aZoS4qmgIdvwbz8TrcnHUe2-MO5ikub0_WdGAYz_imFg_Yw"
+}
