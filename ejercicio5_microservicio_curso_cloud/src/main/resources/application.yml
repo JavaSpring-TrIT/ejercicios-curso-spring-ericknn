@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: 
+      servicio-cursos
+  config:
+    import:
+      optional:configserver:http://localhost:8888		
+springdoc:
+  packages-to-scan: com.curso.controller
+  paths-to-match: /**
+eureka:
+  instance:
+    instance-id: "${spring.application.name}:${random.value}"

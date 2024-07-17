@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: servicio-formaciones
+  config:
+    import:
+      optional:configserver:http://localhost:8888		
+springdoc:
+  packages-to-scan: com.curso.controller
+  paths-to-match: /**
+app:
+  user: user4
+  pass: user4
