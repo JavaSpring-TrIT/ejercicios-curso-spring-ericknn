@@ -1,0 +1,42 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Ejercicio5_Curso_Formacion_Cloud",
+    "collectionId": "5da8d62b-d40f-442b-832d-f5b2214565b9",
+    "dateExported": "2024-07-18T02:47:07.903Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "c83aca5a-7b40-442a-b679-ef22e58e02f9",
+            "colId": "5da8d62b-d40f-442b-832d-f5b2214565b9",
+            "containerId": "",
+            "name": "listar-cursos",
+            "url": "http://localhost:9000/scursos/cursos",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-07-17T07:21:46.525Z",
+            "modified": "2024-07-17T07:38:10.196Z",
+            "headers": [],
+            "auth": {
+                "type": "basic",
+                "basic": {
+                    "username": "user1",
+                    "password": "user1"
+                }
+            }
+        },
+        {
+            "_id": "6b258200-f407-4514-b14c-47f356f02a67",
+            "colId": "5da8d62b-d40f-442b-832d-f5b2214565b9",
+            "containerId": "",
+            "name": "listar-formaciones",
+            "url": "",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-07-17T17:54:32.714Z",
+            "modified": "2024-07-17T17:54:32.714Z",
+            "headers": []
+        }
+    ],
+    "ref": "YOpDPKtdJQEcGeXtckW5oZxE1XNAqTPjDJ39F8vPhaEfOr2dlkyXWEb5JRG7WWNq-hV7tnFEEduzQun4EcyvJA"
+}
